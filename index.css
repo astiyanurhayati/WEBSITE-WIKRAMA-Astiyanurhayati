@@ -1,0 +1,421 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+.navbar img{
+    float: left;
+     width: 53px;
+     height: auto;
+     margin-top: 7px;
+     cursor: pointer;
+     background: white;
+     margin-left: 30px;
+     border-radius: 50%;
+     opacity: 0.7;
+     filter: none;
+ }
+
+
+header{
+
+   background-image: url(img/hp.png);
+    height: 100vh;
+    background-size: cover;
+    background-attachment:fixed;
+}
+ul{
+    float: right;
+    margin-top: 35px;
+    filter: brightness(100%);
+
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    transition: 0.6s;
+
+}
+ul li a:hover{
+    color: orange;
+
+}
+.navbar img{
+    float: left;
+     width: 53px;
+     height: auto;
+     margin-top: 7px;
+     cursor: pointer;
+     background: white;
+     margin-left: 30px;
+     border-radius: 50%;
+     opacity: 0.7;
+     filter: none;
+ }
+ .navbar{
+     max-width: 100%;
+     margin: auto;
+     height: 70px;
+     background: 191919;
+     background: #191919;
+     opacity: 0.9;
+     position: fixed;
+     width: 100%;
+ z-index: 3;
+ 
+}
+
+#cover{
+    position: absolute;
+    top: 38%;
+    left: 6%;
+    text-decoration: none;
+   
+}
+#cover h1{
+    color: white;
+    font-size: 70px;
+    text-shadow: -2px 2px 4px black ;
+    margin-bottom: 25px;
+    
+}
+#cover p {
+   color: white;
+    font-size: 25px;
+    text-align: left;
+    margin-right: 400px;
+    font-weight: bold;
+    margin-left: 11px;
+    padding-bottom: 10px;
+    
+}
+
+.button{
+    position: absolute;
+    top: 55%;
+    margin-left: -35px;
+    margin-top: 60px;
+    font-weight: bold;
+
+}
+.btn{
+    border: 2px solid white;
+    padding: 9px 25px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s ease;
+    border-radius: 10px;
+    margin-left: 40px;
+}
+.btn:hover{
+    background-color: #C84B31;
+}
+
+
+/* konten 2/About */
+#content{
+background-color: #5b5b5b;
+}
+.isi-about .respon{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#about{
+    padding-top: 100px;
+
+}
+.container {
+    text-align: center;
+    padding: 10px 20px;
+  }
+#about h1{
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+    margin: 20px;
+    position: relative;
+  
+    
+}
+.isi-about{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#about h1::before{
+ content:'';
+ display: block;
+ position: absolute;
+ bottom: 0;
+ width: 120px;
+ height: 1px;
+ background-color: orange;
+ left: calc(50% - 60px); 
+}
+
+#about h1::after{
+    content:'';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 40px;
+    height: 4px;
+    background-color: orange;
+    left: calc(50% - 20px); 
+    text-decoration: none;
+}
+
+ div.gallery {
+    border: 1px solid #ccc;
+    background-color:#e6e6e6;
+    width: 230px;
+  }
+  
+  div.gallery:hover {
+    border: 2px solid #777;
+    color: chocolate;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    color: black;
+   text-decoration: none;
+  }
+  div.desc:hover{
+      color: orange;
+     
+    
+  }
+  .desc{
+      text-decoration: none;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+
+
+
+
+  /* Bagian jurusan */
+#jurusan{
+    clear: both;
+    padding-top: 100px;
+    
+}
+  
+  
+  #jurusan img{
+      width: 400px;
+    
+  }
+  .jurusans {
+    padding: 6% 5% 6% 10%;
+   
+    display: grid;
+    grid-template-columns: 40% 60%;
+    background-color: #dfe3ec;
+
+  }
+  
+  .text-jurusan {
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-top: -40px;
+
+  }
+  .text h2{
+    font-size: 30px;
+  }
+  .text p{
+    line-height: 25px;
+    margin-top: 20px;
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
+
+
+
+  .button2{
+    clear: both;
+    position: relative;
+
+}
+
+.btn2{
+    border: 2px solid black;
+    padding: 5px 13px;
+    color: black;
+    text-decoration: none;
+    transition: 0.3s ease;
+    border-radius: 7px
+}
+.btn2:hover{
+    background-color: #312b2a;
+    color: white;
+}
+
+/* AREA ESKUL */
+#eskul{
+    clear: both;
+    background: #524121;
+    padding-top: 80px;
+    height: 500px;
+    color: white;
+   
+}
+.eskuls img{
+    width: 500px;
+    float: right;
+    margin-right: 130px;
+    padding-left: 50px;
+}
+.text-eskul{
+    font-size: 19px;
+    margin-left: 80px;
+    align-items: center;
+    
+   
+}
+.text-eskul h2{
+    margin-bottom: 10px;
+}
+.text-eskul p{
+    margin-bottom: 25px;
+}
+.button3{
+    clear: both;
+    position: relative;
+
+}
+
+.btn3{
+    border: 2px solid white;
+    padding: 5px 13px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s ease;
+    border-radius: 7px
+}
+.btn3:hover{
+    background-color: #312b2a;
+    color: white;
+}
+
+
+/* bagian footer */
+.footer-main img{
+    width: 200px;
+}
+.footer-main {
+    background-color: #1f1f1f;;
+    padding: 24px 60px;
+    color: white;
+    border-top: double black 3px;
+    text-decoration: none;
+  }
+  
+  .footer-grid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 10px;
+    margin: 0 auto;
+    max-width: 100%;
+    justify-items: center;
+    margin-top: 20px;
+    margin-left: -55px;
+  }
+  
+  .footer-bottom{
+      clear: both;
+    background: #1c222b;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    color: rgb(204, 204, 204);
+}
+.footer-bottom p{
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer-3  a{    
+    color: white;
+   
+}
+.footer-3 span:hover{
+    color: orange;
+    
+}
+.footer-1 p a{
+    color: white ;
+}
+.footer-1 p a:hover{
+    color: orange ;
+}
+
+
+
+
+
+
+  /* AREA responsive */
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+    #cover p{
+        margin-right: 0;
+        font-size: 20px;
+    }
+    #cover h1{
+        font-size: 45px;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+    ul li a{
+        padding: 3px 7px;
+        border: solid 1px white;
+        font-size: 16px;
+        margin-right: 5px;
+    }
+    .btn{
+        padding: 5px 20px;
+    }
+  }
+
+
+
+  
+  
+  

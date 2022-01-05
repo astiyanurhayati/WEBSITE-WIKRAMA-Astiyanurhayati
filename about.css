@@ -1,0 +1,389 @@
+*{
+    scroll-behavior: smooth;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 3;
+   
+ 
+}
+
+.navbar a {
+  float: right;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-top: 15px;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+  
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  margin-top: 15px;
+ 
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  color: orange;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  position: fixed;
+ 
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+ 
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.navbar img{
+    float: left;
+     width: 53px;
+     height: auto;
+     margin-top: 7px;
+     cursor: pointer;
+     background: white;
+     margin-left: 30px;
+     border-radius: 50%;
+
+     filter: none;
+}
+
+
+/* 
+BAGIAN KONTEN */
+/* bagian konten 1/sejarah */
+#sejarah{
+    background-color:#d6c4b5;
+  
+}
+.isi-sejarah{
+    padding-bottom: 50px;
+}
+ .isi-sejarah h1{
+    padding-top: 98px;
+    text-align: center;
+    padding-bottom: 15px;
+    position: relative;
+ }
+ .isi-sejarah h1::before{
+    content:'';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width:200px;
+    height: 1px;
+    background-color: rgb(255, 94, 0);
+    left: calc(50% - 100px); 
+   }
+   
+   .isi-sejarah h1::after{
+       content:'';
+       display: block;
+       position: absolute;
+       bottom: 0;
+       width: 40px;
+       height: 4px;
+       background-color: rgb(255, 94, 0);
+       left: calc(50% - 20px); 
+   }
+   .isi-sejarah img{
+    width: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 40px;
+   }
+   .isi-sejarah p{
+       padding-right: 80px;
+       padding-left: 80px;
+       font-size: 18px;
+       margin: 0;
+   }
+
+   /* BAGIAN TABEL SEJARAH */
+
+   .table table{
+    font-family: sans-serif;
+	color: #232323;
+    border-collapse: collapse;
+    margin-left: 80px;
+    margin-right: 200px;
+    }
+    .table table, th, td {
+        border: 1px solid black;
+        padding: 8px 20px;
+        background-color: #fcf2eb;
+        line-height: 21px;
+    }
+    .table table tr th{
+        background-color: gray;
+        color: white;
+    }
+
+
+    /* konten ke 2/ MATRIKULASI */
+    .content-matrikulasi-wikrama{
+        background-color: #e6e6e6;
+    }
+    .isi-matrikulasi{
+        padding-bottom: 50px;
+    }
+    .isi-matrikulasi h1{
+   
+        padding-top: 98px;
+        text-align: center;
+        padding-bottom: 15px;
+        position: relative;
+    }
+    .isi-matrikulasi h1::before{
+        content:'';
+        display: block;
+        position: absolute;
+        bottom: 0;
+        width:200px;
+        height: 1px;
+        background-color: rgb(255, 94, 0);
+        left: calc(50% - 100px); 
+       }
+       
+       .isi-matrikulasi h1::after{
+          content:'';
+           display: block;
+           position: absolute;
+           bottom: 0;
+           width: 40px;
+           height: 4px;
+           background-color: rgb(255, 94, 0);
+           left: calc(50% - 20px); 
+       }
+            .isi-matrikulasi img{
+            width: 350px;
+             display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 10px;
+            padding-bottom: 40px;
+                    }
+            .isi-matrikulasi p{
+                padding-right: 80px;
+                padding-left: 80px;
+                font-size: 18px;
+                margin: 0;
+            }
+/* bagian konten PERPUSTAKAAN */
+    .isi-perpustakaan{
+        padding-bottom: 50px;
+    }
+
+    .isi-perpustakaan h1{
+        padding-top: 98px;
+        text-align: center;
+        padding-bottom: 15px;
+        position: relative;
+    }
+    .isi-perpustakaan .fotoperpus{
+        width: 400px;
+        margin-left: 70px;
+        margin-top: 60px;
+        
+        
+    }
+    .isi-perpustakaan .fotoperpusonline{
+        width: 400px;
+        margin-left: 70px;
+        float: right;
+    }
+    .isi-perpustakaan h1::before{
+        content:'';
+        display: block;
+        position: absolute;
+        bottom: 0;
+        width:200px;
+        height: 1px;
+        background-color: rgb(255, 94, 0);
+        left: calc(50% - 100px); 
+       }
+       
+       .isi-perpustakaan h1::after{
+          content:'';
+           display: block;
+           position: absolute;
+           bottom: 0;
+           width: 40px;
+           height: 4px;
+           background-color: rgb(255, 94, 0);
+           left: calc(50% - 20px); 
+       }
+    .perpustakaan-kiri{
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 40% 60%;
+        margin: 0;
+    }
+
+    .perpustakaan-kanan{
+        padding-top: 50px;
+        display: grid;
+        grid-template-columns: 40% 60%;
+        
+    }
+   
+    /* bagian konten KANTIN */
+    .content-kantin-wikrama{
+        background-color: #e6e6e6;
+        
+        
+    }
+    .isi-kantin{
+        padding-bottom: 50px;
+    }
+    .isi-kantin h1{
+        padding-top: 98px;
+        text-align: center;
+        padding-bottom: 15px;
+        position: relative;
+      }
+    .isi-kantin h1::before{
+        content:'';
+        display: block;
+        position: absolute;
+        bottom: 0;
+        width:200px;
+        height: 1px;
+        background-color: rgb(255, 94, 0);
+        left: calc(50% - 100px); 
+       }
+       
+       .isi-kantin h1::after{
+          content:'';
+           display: block;
+           position: absolute;
+           bottom: 0;
+           width: 40px;
+           height: 4px;
+           background-color: rgb(255, 94, 0);
+           left: calc(50% - 20px); 
+       }
+       .isi-kantin img{
+        width: 450px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 10px;
+        padding-bottom: 40px;
+    }
+    .isi-kantin p{
+        padding-right: 80px;
+        padding-left: 80px;
+        font-size: 18px;
+     margin: 0;
+        
+    }
+
+
+/*  
+FOOTER */
+
+
+
+.footer-main img{
+    width: 200px;
+  }
+  .footer-main {
+    background-color: #1f1f1f;;
+    padding: 15px 60px;
+    color: white;
+    border-top: double black 3px;
+    text-decoration: none;
+  }
+  
+  .footer-grid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 10px;
+    margin: 0 auto;
+    max-width: 100%;
+    justify-items: center;
+   line-height: 7px;
+    margin-left: -55px;
+  }
+  
+  .footer-bottom{
+      clear: both;
+    background: #1c222b;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    color: rgb(204, 204, 204);
+  }
+  .footer-bottom p{
+    font-size: 14px;
+    margin: 10px;
+   
+  }
+  .footer-3  a{    
+    color: white;
+    text-decoration: none;
+   
+}
+.footer-3 span:hover{
+    color: orange;
+    
+}
+.footer-1 p a{
+    color: white ;
+    text-decoration: none;
+}
+.footer-1 p a:hover{
+    color: orange ;
+}
+
+    
